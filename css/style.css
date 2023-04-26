@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    margin: 20px auto;
+    padding: 100px;
+    border: 1px solid palevioletred;
+    background-color: lightpink;
+    line-height: 40px;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 40px;
+}

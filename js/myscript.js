@@ -10,22 +10,22 @@ let userName, surname, favouriteColour, password, messaggio;
 userName = prompt("inserisci il tuo nome");
 console.log(userName)
 
-document.getElementById("myUsername").innerHTML = "il tuo nome:" + " " + userName
+document.getElementById("myUsername").innerHTML = "Il tuo nome è :" + " " + userName
 
 // surname var
 surname = prompt("inserisci il tuo cognome");
 console.log(surname)
 
-document.getElementById("mySurname").innerHTML = "il tuo cognome:" +  " " + surname
+document.getElementById("mySurname").innerHTML = "Il tuo cognome è :" +  " " + surname
 
 // favourite colour var
 favouriteColour = prompt("inserisci il tuo colore preferito");
 console.log(favouriteColour)
 
-document.getElementById("myFavouriteColour").innerHTML = "il tuo colore preferito è :" +  " " + favouriteColour
+document.getElementById("myFavouriteColour").innerHTML = "Il tuo colore preferito è :" +  " " + favouriteColour
 
 // password with previous var
-password = `${userName} ${surname} ${favouriteColour} 24`
+password = `${userName}${surname}${favouriteColour}24`
 console.log(password)
 
 // message 
